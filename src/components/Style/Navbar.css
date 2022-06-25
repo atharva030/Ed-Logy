@@ -1,0 +1,63 @@
+.heading {
+  color: #444;
+  padding: 1rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.navbar a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid red;
+  }
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 1.5rem 7%;
+  background: #1c1d30;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0 78rem;
+}
+
+header .navbar ul li {
+  margin: 0 2rem;
+}
+
+header .navbar ul li a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+
+header #login {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+header #menu {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
